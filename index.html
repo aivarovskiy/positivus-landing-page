@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positivus</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" />
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="header container">
+        <a class="logo row" href="index.html">
+            <svg class="logo-mark" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12.017 3.53041L24 0L20.5035 12.017L24 24L12.017 20.5035L0 24L3.53041 12.017L0 0L12.017 3.53041Z"/>
+            </svg>
+            <svg class="logo-type" viewBox="0 0 123 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M2.044 22V2.4H9.828C11.0227 2.4 12.0867 2.64267 13.02 3.128C13.972 3.59467 14.7093 4.26667 15.232 5.144C15.7733 6.00267 16.044 7.03867 16.044 8.252V8.616C16.044 9.82933 15.764 10.8747 15.204 11.752C14.6627 12.6293 13.9253 13.3013 12.992 13.768C12.0587 14.2347 11.004 14.468 9.828 14.468H5.068V22H2.044ZM5.068 11.724H9.52C10.584 11.724 11.4333 11.444 12.068 10.884C12.7027 10.324 13.02 9.55867 13.02 8.588V8.308C13.02 7.31867 12.7027 6.544 12.068 5.984C11.4333 5.424 10.584 5.144 9.52 5.144H5.068V11.724ZM25.0843 22.392C23.7029 22.392 22.4709 22.112 21.3883 21.552C20.3243 20.9733 19.4843 20.152 18.8683 19.088C18.2523 18.024 17.9443 16.764 17.9443 15.308V14.888C17.9443 13.432 18.2523 12.1813 18.8683 11.136C19.4843 10.072 20.3243 9.25067 21.3883 8.672C22.4709 8.09333 23.7029 7.804 25.0843 7.804C26.4656 7.804 27.6976 8.09333 28.7803 8.672C29.8629 9.25067 30.7123 10.072 31.3283 11.136C31.9443 12.1813 32.2523 13.432 32.2523 14.888V15.308C32.2523 16.764 31.9443 18.024 31.3283 19.088C30.7123 20.152 29.8629 20.9733 28.7803 21.552C27.6976 22.112 26.4656 22.392 25.0843 22.392ZM25.0843 19.816C26.3536 19.816 27.3803 19.4147 28.1643 18.612C28.9669 17.7907 29.3683 16.6613 29.3683 15.224V14.972C29.3683 13.5347 28.9763 12.4147 28.1923 11.612C27.4083 10.7907 26.3723 10.38 25.0843 10.38C23.8336 10.38 22.8069 10.7907 22.0043 11.612C21.2203 12.4147 20.8283 13.5347 20.8283 14.972V15.224C20.8283 16.6613 21.2203 17.7907 22.0043 18.612C22.8069 19.4147 23.8336 19.816 25.0843 19.816ZM41.4988 22.392C39.7442 22.392 38.2882 22 37.1308 21.216C35.9735 20.432 35.2642 19.2467 35.0028 17.66L37.6908 17.016C37.8402 17.7813 38.0922 18.388 38.4468 18.836C38.8015 19.284 39.2402 19.6013 39.7628 19.788C40.3042 19.9747 40.8828 20.068 41.4988 20.068C42.4135 20.068 43.1135 19.8907 43.5988 19.536C44.1028 19.1813 44.3548 18.724 44.3548 18.164C44.3548 17.604 44.1215 17.1933 43.6548 16.932C43.1882 16.6707 42.4975 16.456 41.5828 16.288L40.6308 16.12C39.6975 15.952 38.8482 15.7093 38.0828 15.392C37.3175 15.0747 36.7108 14.636 36.2628 14.076C35.8148 13.516 35.5908 12.7973 35.5908 11.92C35.5908 10.6133 36.0762 9.60533 37.0468 8.896C38.0175 8.168 39.3055 7.804 40.9108 7.804C42.4602 7.804 43.7295 8.15867 44.7188 8.868C45.7268 9.55867 46.3802 10.5013 46.6788 11.696L43.9908 12.452C43.8228 11.612 43.4682 11.024 42.9268 10.688C42.3855 10.3333 41.7135 10.156 40.9108 10.156C40.1268 10.156 39.5108 10.3053 39.0628 10.604C38.6148 10.884 38.3908 11.2853 38.3908 11.808C38.3908 12.368 38.6055 12.7787 39.0348 13.04C39.4828 13.3013 40.0802 13.4973 40.8268 13.628L41.8068 13.796C42.7962 13.964 43.7015 14.1973 44.5228 14.496C45.3442 14.7947 45.9882 15.224 46.4548 15.784C46.9402 16.344 47.1828 17.0907 47.1828 18.024C47.1828 19.4053 46.6695 20.4787 45.6428 21.244C44.6162 22.0093 43.2348 22.392 41.4988 22.392ZM50.5538 22V8.196H53.4378V22H50.5538ZM52.0098 6.32C51.4498 6.32 50.9738 6.14267 50.5818 5.788C50.2084 5.41467 50.0218 4.93867 50.0218 4.36C50.0218 3.78133 50.2084 3.31467 50.5818 2.96C50.9738 2.58667 51.4498 2.4 52.0098 2.4C52.5884 2.4 53.0644 2.58667 53.4378 2.96C53.8111 3.31467 53.9978 3.78133 53.9978 4.36C53.9978 4.93867 53.8111 5.41467 53.4378 5.788C53.0644 6.14267 52.5884 6.32 52.0098 6.32ZM62.8978 22C62.0578 22 61.3858 21.748 60.8818 21.244C60.3965 20.74 60.1538 20.068 60.1538 19.228V10.632H56.3458V8.196H60.1538V3.632H63.0378V8.196H67.1538V10.632H63.0378V18.724C63.0378 19.284 63.2992 19.564 63.8218 19.564H66.7058V22H62.8978ZM70.5421 22V8.196H73.4261V22H70.5421ZM71.9981 6.32C71.4381 6.32 70.9621 6.14267 70.5701 5.788C70.1967 5.41467 70.0101 4.93867 70.0101 4.36C70.0101 3.78133 70.1967 3.31467 70.5701 2.96C70.9621 2.58667 71.4381 2.4 71.9981 2.4C72.5767 2.4 73.0527 2.58667 73.4261 2.96C73.7994 3.31467 73.9861 3.78133 73.9861 4.36C73.9861 4.93867 73.7994 5.41467 73.4261 5.788C73.0527 6.14267 72.5767 6.32 71.9981 6.32ZM80.8981 22L76.2501 8.196H79.3021L82.9701 19.872H83.4181L87.0861 8.196H90.1381L85.4901 22H80.8981ZM98.2286 22.252C97.1833 22.252 96.2499 22.0187 95.4286 21.552C94.6073 21.0853 93.9633 20.4227 93.4966 19.564C93.0299 18.7053 92.7966 17.6787 92.7966 16.484V8.196H95.6806V16.288C95.6806 17.4827 95.9793 18.3693 96.5766 18.948C97.1739 19.508 98.0046 19.788 99.0686 19.788C100.245 19.788 101.187 19.396 101.897 18.612C102.625 17.8093 102.989 16.6613 102.989 15.168V8.196H105.873V22H103.045V19.928H102.597C102.335 20.488 101.869 21.02 101.197 21.524C100.525 22.0093 99.5353 22.252 98.2286 22.252ZM115.792 22.392C114.037 22.392 112.581 22 111.424 21.216C110.266 20.432 109.557 19.2467 109.296 17.66L111.984 17.016C112.133 17.7813 112.385 18.388 112.74 18.836C113.094 19.284 113.533 19.6013 114.056 19.788C114.597 19.9747 115.176 20.068 115.792 20.068C116.706 20.068 117.406 19.8907 117.892 19.536C118.396 19.1813 118.648 18.724 118.648 18.164C118.648 17.604 118.414 17.1933 117.948 16.932C117.481 16.6707 116.79 16.456 115.876 16.288L114.924 16.12C113.99 15.952 113.141 15.7093 112.376 15.392C111.61 15.0747 111.004 14.636 110.556 14.076C110.108 13.516 109.884 12.7973 109.884 11.92C109.884 10.6133 110.369 9.60533 111.34 8.896C112.31 8.168 113.598 7.804 115.204 7.804C116.753 7.804 118.022 8.15867 119.012 8.868C120.02 9.55867 120.673 10.5013 120.972 11.696L118.284 12.452C118.116 11.612 117.761 11.024 117.22 10.688C116.678 10.3333 116.006 10.156 115.204 10.156C114.42 10.156 113.804 10.3053 113.356 10.604C112.908 10.884 112.684 11.2853 112.684 11.808C112.684 12.368 112.898 12.7787 113.328 13.04C113.776 13.3013 114.373 13.4973 115.12 13.628L116.1 13.796C117.089 13.964 117.994 14.1973 118.816 14.496C119.637 14.7947 120.281 15.224 120.748 15.784C121.233 16.344 121.476 17.0907 121.476 18.024C121.476 19.4053 120.962 20.4787 119.936 21.244C118.909 22.0093 117.528 22.392 115.792 22.392Z"/>
+            </svg>
+        </a>
+        <input class="nav-toggle" type="checkbox" id="nav-toggle">
+        <label class="icon-btn" for="nav-toggle" onclick="toggleNav()">
+            <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3.83332 18C3.59722 18 3.39931 17.9199 3.23957 17.7596C3.07986 17.5993 3 17.4007 3 17.1637C3 16.9268 3.07986 16.7292 3.23957 16.5709C3.39931 16.4125 3.59722 16.3334 3.83332 16.3334H20.1667C20.4028 16.3334 20.6007 16.4135 20.7604 16.5738C20.9201 16.7341 21 16.9327 21 17.1696C21 17.4065 20.9201 17.6042 20.7604 17.7625C20.6007 17.9208 20.4028 18 20.1667 18H3.83332ZM3.83332 12.8333C3.59722 12.8333 3.39931 12.7532 3.23957 12.5929C3.07986 12.4326 3 12.234 3 11.9971C3 11.7601 3.07986 11.5625 3.23957 11.4042C3.39931 11.2458 3.59722 11.1667 3.83332 11.1667H20.1667C20.4028 11.1667 20.6007 11.2468 20.7604 11.4071C20.9201 11.5674 21 11.766 21 12.0029C21 12.2399 20.9201 12.4375 20.7604 12.5958C20.6007 12.7542 20.4028 12.8333 20.1667 12.8333H3.83332ZM3.83332 7.6667C3.59722 7.6667 3.39931 7.5865 3.23957 7.4262C3.07986 7.2659 3 7.0673 3 6.8304C3 6.5935 3.07986 6.3958 3.23957 6.2375C3.39931 6.0792 3.59722 6 3.83332 6H20.1667C20.4028 6 20.6007 6.0801 20.7604 6.2404C20.9201 6.4007 21 6.5993 21 6.8363C21 7.0732 20.9201 7.2708 20.7604 7.4292C20.6007 7.5875 20.4028 7.6667 20.1667 7.6667H3.83332Z"/>
+            </svg>
+        </label>
+        <nav class="header__nav" id="nav">
+            <a class="header__nav-link" href="#services" onclick="closeNav()">Services</a>
+            <a class="header__nav-link" href="#studies" onclick="closeNav()">Studies</a>
+            <a class="header__nav-link" href="#process" onclick="closeNav()">Process</a>
+            <a class="header__nav-link" href="#team" onclick="closeNav()">Team</a>
+            <a class="header__nav-link" href="#testimonials" onclick="closeNav()">Testimonials</a>
+            <a class="header__nav-link" href="#contact" onclick="closeNav()">Contact</a>
+        </nav>
+    </header>
+    <main class="col col_main">
+        <section class="hero grid grid_double container">
+            <div class="col col_hero">
+                <h1 class="h1">Navigating the digital landscape to success</h1>
+                <img class="hero__img hero__img_visible-on-mobile" src="img/hero.svg">
+                <p class="p">Our digital marketing agency helps businesses grow and succeed online through a range of services including SEO, PPC, social media marketing, and content creation.</p>
+                <a class="txt-btn" href="#services">Discover</a>
+            </div>
+            <img class="hero__img hero__img_hidden-on-mobile" src="img/hero.svg">
+        </section>
+        <section class="row row_partners container">
+            <img class="partners__partner" src="img/partner1.svg">
+            <img class="partners__partner" src="img/partner2.svg">
+            <img class="partners__partner" src="img/partner3.svg">
+            <img class="partners__partner" src="img/partner4.svg">
+            <img class="partners__partner" src="img/partner5.svg">
+            <img class="partners__partner" src="img/partner6.svg">
+        </section>
+        <section class="services container" id="services">
+            <div class="col col_section-heading">
+                <h1 class="h2">Services</h1>
+                <p class="p">At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These services include:</p>
+            </div>
+            <div class="grid grid_triple">
+                <div class="wrapper wrapper_service">
+                    <div>
+                        <h3 class="h3">Search engine</h3>
+                        <h3 class="h3">optimization</h3>    
+                    </div>
+                    <div class="w-full">
+                        <img class="services__img" src="img/service1.png">
+                    </div>
+                </div>
+                <div class="wrapper wrapper_service">
+                    <div>
+                        <h3 class="h3">Pay-per-click</h3>
+                        <h3 class="h3">advertising</h3>    
+                    </div>
+                    <div class="w-full">
+                        <img class="services__img" src="img/service2.png">
+                    </div>
+                </div>
+                <div class="wrapper wrapper_service">
+                    <div>
+                        <h3 class="h3">Social media</h3>
+                        <h3 class="h3">marketing</h3>    
+                    </div>
+                    <div class="w-full">
+                        <img class="services__img" src="img/service3.png">
+                    </div>
+                </div>
+                <div class="wrapper wrapper_service">
+                    <div>
+                        <h3 class="h3">Email</h3>
+                        <h3 class="h3">marketing</h3>    
+                    </div>
+                    <div class="w-full">
+                        <img class="services__img" src="img/service4.png">
+                    </div>
+                </div>
+                <div class="wrapper wrapper_service">
+                    <div>
+                        <h3 class="h3">Content</h3>
+                        <h3 class="h3">creation</h3>    
+                    </div>
+                    <div class="w-full">
+                        <img class="services__img" src="img/service5.png">
+                    </div>
+                </div>
+                <div class="wrapper wrapper_service">
+                    <div>
+                        <h3 class="h3">Analytics</h3>
+                        <h3 class="h3">and tracking</h3>    
+                    </div>
+                    <div class="w-full">
+                        <img class="services__img" src="img/service6.png">
+                    </div>
+                </div>
+            </div>
+            <div class="wrapper wrapper_service wrapper_cta">
+                <div class="col col_cta">
+                    <div>
+                        <h3 class="h3">Let's make it</h3>
+                        <h3 class="h3">happen</h3>    
+                    </div>
+                    <p class="p max-w-sm">Contact us today to learn more about how our digital marketing services can help your business grow and succeed online.</p>
+                    <a class="txt-btn txt-btn_clr_bg" href="#contact">Contact</a>
+                </div>
+                <div class="w-full">
+                    <img class="services__cta-img" src="img/service7.svg">
+                </div>
+            </div>
+        </section>
+        <section class="studies container" id="studies">
+            <div class="col col_section-heading">
+                <h1 class="h2">Studies</h1>
+                <p class="p">Explore real-life examples of our proven digital marketing success through our case studies</p>
+            </div>
+            <div class="wrapper wrapper_studies grid grid_triple">
+                <div class="col col_study">
+                    <p class="p">For a local restaurant, we implemented a targeted PPC campaign that resulted in a 50% increase in website traffic and a 25% increase in sales.</p>
+                    <a class="icon-link">
+                        <span>Learn more</span>
+                        <svg class="icon-link__icon" viewBox="0 0 18 18" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4.29231 16L13.1538 7.13846V15.0769H15V4H3.92308V5.84615H11.8615L3 14.7077L4.29231 16Z"/>
+                        </svg>
+                    </a>
+                </div>
+                <div class="col col_study">
+                    <p class="p">For a B2B software company, we developed an SEO strategy that resulted in a first page ranking for key keywords and a 200% increase in organic traffic.</p>
+                    <a class="icon-link">
+                        <span>Learn more</span>
+                        <svg class="icon-link__icon" viewBox="0 0 18 18" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4.29231 16L13.1538 7.13846V15.0769H15V4H3.92308V5.84615H11.8615L3 14.7077L4.29231 16Z"/>
+                        </svg>
+                    </a>
+                </div>
+                <div class="col col_study">
+                    <p class="p">For a national retail chain, we created a social media marketing campaign that increased followers by 25% and generated a 20% increase in online sales.</p>
+                    <a class="icon-link">
+                        <span>Learn more</span>
+                        <svg class="icon-link__icon" viewBox="0 0 18 18" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4.29231 16L13.1538 7.13846V15.0769H15V4H3.92308V5.84615H11.8615L3 14.7077L4.29231 16Z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="process container" id="process">
+            <div class="col col_section-heading">
+                <h1 class="h2">Process</h1>
+                <p class="p max-w-sm">Step-by-step guide to achieving your business goals</p>
+            </div>
+            <div class="wrapper col col_spoiler">
+                <details class="spoiler">
+                    <summary class="spoiler__heading">
+                        <span class="spoiler__number">1</span>
+                        <span>Consultation</span>
+                        <svg class="icon-btn" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M11 13H5V11H11V5H13V11H19V13H13V19H11V13Z"/>
+                        </svg>
+                    </summary>
+                    <p class="spoiler__desc">During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.</p>
+                </details>
+                <details class="spoiler">
+                    <summary class="spoiler__heading">
+                        <span class="spoiler__number">2</span>
+                        <span>Research</span>
+                        <svg class="icon-btn" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M11 13H5V11H11V5H13V11H19V13H13V19H11V13Z"/>
+                        </svg>
+                    </summary>
+                    <p class="spoiler__desc">During the research stage, we collect data, analyze it and compile a report on the current state of the market, target audience and competitive environment. This helps identify opportunities for growth and development of the client's business.</p>
+                </details>
+                <details class="spoiler">
+                    <summary class="spoiler__heading">
+                        <span class="spoiler__number">3</span>
+                        <span>Implementation</span>
+                        <svg class="icon-btn" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M11 13H5V11H11V5H13V11H19V13H13V19H11V13Z"/>
+                        </svg>
+                    </summary>
+                    <p class="spoiler__desc">Implementation may include content creation, advertising setup, website and social media improvements. We also help in developing marketing campaigns and promotions that will help attract more customers and increase sales.</p>
+                </details>
+                <details class="spoiler">
+                    <summary class="spoiler__heading">
+                        <span class="spoiler__number">4</span>
+                        <span>Optimization</span>
+                        <svg class="icon-btn" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M11 13H5V11H11V5H13V11H19V13H13V19H11V13Z"/>
+                        </svg>
+                    </summary>
+                    <p class="spoiler__desc">Optimization includes analyzing data, identifying weaknesses and developing solutions to eliminate problems encountered during the implementation.</p>
+                </details>
+            </div>
+        </section>
+        <section class="team container" id="team">
+            <div class="col col_section-heading">
+                <h1 class="h2">Team</h1>
+                <p class="p">Meet the skilled and experienced team behind our successful digital marketing strategies</p>
+            </div>
+            <div class="wrapper wrapper_team">
+                <div class="grid grid_triple">
+                    <div class="wrapper wrapper_member col col_member">
+                        <div class="row row_member-info">
+                            <img class="avatar" src="img/team1.png">
+                            <div>
+                                <h4 class="h4">John Smith</h4>
+                                <p class="p">Founder</p>
+                            </div>
+                        </div>
+                        <p class="p">10+ years of experience in digital marketing. Expertise in SEO, PPC, and content strategy.</p>
+                    </div>
+                    <div class="wrapper wrapper_member col col_member">
+                        <div class="row row_member-info">
+                            <img class="avatar" src="img/team2.png">
+                            <div>
+                                <h4 class="h4">Jane Doe</h4>
+                                <p class="p">Director</p>
+                            </div>
+                        </div>
+                        <p class="p">7+ years of experience in project management and team leadership. Strong organizational and communication skills.</p>
+                    </div>
+                    <div class="wrapper wrapper_member col col_member">
+                        <div class="row row_member-info">
+                            <img class="avatar" src="img/team3.png">
+                            <div>
+                                <h4 class="h4">Jack Brown</h4>
+                                <p class="p">Specialist</p>
+                            </div>
+                        </div>
+                        <p class="p">5+ years of experience in SEO and content creation. Proficient in keyword research and on-page optimization.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="testimonials container" id="testimonials">
+            <div class="col col_section-heading">
+                <h1 class="h2">Testimonials</h1>
+                <p class="p">Hear from our satisfied clients: read our testimonials to learn more about our digital marketing services</p>
+            </div>
+            <div class="grid grid_double">
+                <div class="col">
+                    <div class="wrapper wrapper_testimonial col col_testimonial">
+                        <p class="p">“We have been working with Positivus for the past year and have seen a significant increase in website traffic and leads as a result of their efforts. The team is professional, responsive, and truly cares about the success of our business. We highly recommend Positivus to any company looking to grow their online presence.”</p>
+                        <div>
+                            <h4 class="h4 txt_accent">Emily Johnson</h4>
+                            <p class="p txt_secondary">Marketing Director at Notion</p>
+                        </div>
+                    </div>
+                    <div class="wrapper wrapper_testimonial col col_testimonial">
+                        <p class="p">“Cooperation with Positivus team turned out to be a real lifesaver for our business.”</p>
+                        <div>
+                            <h4 class="h4 txt_accent">Celine Flores</h4>
+                            <p class="p txt_secondary">Strategy Lead at Hubspot</p>
+                        </div>
+                    </div>
+                    <div class="wrapper wrapper_testimonial col col_testimonial">
+                        <div class="p">“Working with Positivus turned out to be much easier and more effective than we expected. Not only do they come up with creative ideas, but they also provide detailed reports on the results of every step we take.”</div>
+                        <div>
+                            <h4 class="h4 txt_accent">Sarah Williams</h4>
+                            <p class="p txt_secondary">Financial Analyst at Amazon</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="wrapper wrapper_testimonial col col_testimonial">
+                        <p class="p">“We turned to Positivus when our business was already in difficulty. Their recommendations and strategies helped us not only stay afloat, but also increase profits.”</p>
+                        <div>
+                            <h4 class="h4 txt_accent">Daniel Scott</h4>
+                            <p class="p txt_secondary">Sales Manager at Zoom</p>
+                        </div>
+                    </div>
+                    <div class="wrapper wrapper_testimonial col col_testimonial">
+                        <p class="p">“I would like to express my gratitude to Positivus for their professionalism and efficiency in implementing our marketing strategies. They have been flexible in working with us, tailoring their offerings to suit our needs and priorities. I highly recommend them to anyone looking for a reliable partner to grow their business.”</p>
+                        <div>
+                            <h4 class="h4 txt_accent">Bobby Taylor</h4>
+                            <p class="p txt_secondary">Product Officer at Netflix</p>
+                        </div>
+                    </div>
+                    <div class="wrapper wrapper_testimonial col col_testimonial">
+                        <p class="p">“From the very beginning, our work with Positivus has been based on mutual trust and respect, which has allowed us to achieve excellent results.”</p>
+                        <div>
+                            <h4 class="h4 txt_accent">Tom Hull</h4>
+                            <p class="p txt_secondary">PR Manager at Dribbble</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer container" id="contact">
+        <div class="col col_section-heading">
+            <h1 class="h2">Contact</h1>
+            <p class="p max-w-sm">Connect with us: let's discuss your digital marketing needs</p>
+        </div>
+        <div class="wrapper wrapper_footer">
+            <form class="row row_newsletter" id="newsletter-form">
+                <input class="input" placeholder="your@email.com" id="newsletter-input">
+                <button class="txt-btn" type="submit">Subscribe</button>
+            </form>
+            <div class="col col_footer">
+                <div class="col col_footer-txt">
+                    <p class="p">50 Beale Street, Floor 9</p>
+                    <p class="p">San Francisco, CA, 94105</p>
+                    <a class="link" href="tel:510-402-2257">510-402-2257</a>
+                    <a class="link" href="mailto:info@positivus.com">info@positivus.com</a>
+                </div>
+                <div class="row row_socials">
+                    <a class="icon-btn icon-btn_social">
+                        <svg viewBox="0 0 32 32" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M21.7508 6.96094H24.8175L18.1175 14.6193L26 25.0385H19.8283L14.995 18.7185L9.46333 25.0385H6.395L13.5617 16.8468L6 6.96177H12.3283L16.6975 12.7385L21.7508 6.96094ZM20.675 23.2035H22.3742L11.405 8.7001H9.58167L20.675 23.2035Z"/>
+                        </svg>
+                    </a>
+                    <a class="icon-btn icon-btn_social">
+                        <svg viewBox="0 0 32 32" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16 6C13.2833 6 12.9442 6.0125 11.8775 6.06C10.8125 6.11 10.0875 6.2775 9.45 6.525C8.7925 6.78 8.23417 7.1225 7.67833 7.67833C7.1225 8.23417 6.77917 8.79167 6.525 9.45C6.2775 10.0875 6.10917 10.8125 6.06 11.8775C6.01 12.9442 6 13.2833 6 16C6 18.7167 6.0125 19.0558 6.06 20.1225C6.11 21.1867 6.2775 21.9125 6.525 22.55C6.78 23.2067 7.1225 23.7658 7.67833 24.3217C8.23417 24.8767 8.79167 25.2208 9.45 25.475C10.0883 25.7217 10.8133 25.8908 11.8775 25.94C12.9442 25.99 13.2833 26 16 26C18.7167 26 19.0558 25.9875 20.1225 25.94C21.1867 25.89 21.9125 25.7217 22.55 25.475C23.2067 25.22 23.7658 24.8767 24.3217 24.3217C24.8767 23.7658 25.2208 23.2092 25.475 22.55C25.7217 21.9125 25.8908 21.1867 25.94 20.1225C25.99 19.0558 26 18.7167 26 16C26 13.2833 25.9875 12.9442 25.94 11.8775C25.89 10.8133 25.7217 10.0867 25.475 9.45C25.22 8.7925 24.8767 8.23417 24.3217 7.67833C23.7658 7.1225 23.2092 6.77917 22.55 6.525C21.9125 6.2775 21.1867 6.10917 20.1225 6.06C19.0558 6.01 18.7167 6 16 6ZM16 7.8C18.6692 7.8 18.9875 7.81333 20.0417 7.85917C21.0167 7.905 21.5458 8.06667 21.8975 8.205C22.3658 8.38583 22.6975 8.6025 23.0492 8.95167C23.3983 9.30167 23.615 9.63417 23.7958 10.1025C23.9325 10.4542 24.0958 10.9833 24.14 11.9583C24.1875 13.0133 24.1983 13.33 24.1983 16C24.1983 18.67 24.1858 18.9875 24.1367 20.0417C24.0858 21.0167 23.9233 21.5458 23.7858 21.8975C23.5992 22.3658 23.3867 22.6975 23.0367 23.0492C22.6875 23.3983 22.35 23.615 21.8867 23.7958C21.5367 23.9325 20.9992 24.0958 20.0242 24.14C18.9625 24.1875 18.65 24.1983 15.975 24.1983C13.2992 24.1983 12.9867 24.1858 11.9258 24.1367C10.95 24.0858 10.4125 23.9233 10.0625 23.7858C9.58833 23.5992 9.2625 23.3867 8.91333 23.0367C8.5625 22.6875 8.33833 22.35 8.16333 21.8867C8.02583 21.5367 7.86417 20.9992 7.81333 20.0242C7.77583 18.9742 7.7625 18.65 7.7625 15.9875C7.7625 13.3242 7.77583 12.9992 7.81333 11.9367C7.86417 10.9617 8.02583 10.425 8.16333 10.075C8.33833 9.6 8.5625 9.275 8.91333 8.92417C9.2625 8.575 9.58833 8.35 10.0625 8.17583C10.4125 8.0375 10.9383 7.875 11.9133 7.825C12.9758 7.7875 13.2883 7.775 15.9625 7.775L16 7.8ZM16 10.865C13.1625 10.865 10.865 13.165 10.865 16C10.865 18.8375 13.165 21.135 16 21.135C18.8375 21.135 21.135 18.835 21.135 16C21.135 13.1625 18.835 10.865 16 10.865ZM16 19.3333C14.1583 19.3333 12.6667 17.8417 12.6667 16C12.6667 14.1583 14.1583 12.6667 16 12.6667C17.8417 12.6667 19.3333 14.1583 19.3333 16C19.3333 17.8417 17.8417 19.3333 16 19.3333ZM22.5383 10.6625C22.5383 11.325 22 11.8625 21.3383 11.8625C20.6758 11.8625 20.1383 11.3242 20.1383 10.6625C20.1383 10.0008 20.6767 9.46333 21.3383 9.46333C21.9992 9.4625 22.5383 10.0008 22.5383 10.6625Z"/>
+                        </svg>
+                    </a>
+                    <a class="icon-btn icon-btn_social">
+                        <svg viewBox="0 0 32 32" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M23.0392 23.0433H20.0775V18.4025C20.0775 17.2958 20.055 15.8717 18.5342 15.8717C16.99 15.8717 16.7542 17.0758 16.7542 18.3208V23.0433H13.7925V13.5H16.6375V14.8008H16.6758C17.0733 14.0508 18.04 13.2592 19.4842 13.2592C22.485 13.2592 23.04 15.2342 23.04 17.805L23.0392 23.0433ZM10.4475 12.1942C9.49417 12.1942 8.72833 11.4225 8.72833 10.4733C8.72833 9.525 9.495 8.75417 10.4475 8.75417C11.3975 8.75417 12.1675 9.525 12.1675 10.4733C12.1675 11.4225 11.3967 12.1942 10.4475 12.1942ZM11.9325 23.0433H8.9625V13.5H11.9325V23.0433ZM24.5208 6H7.47583C6.66 6 6 6.645 6 7.44083V24.5592C6 25.3558 6.66 26 7.47583 26H24.5183C25.3333 26 26 25.3558 26 24.5592V7.44083C26 6.645 25.3333 6 24.5183 6H24.5208Z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
