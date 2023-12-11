@@ -1,3 +1,5 @@
+![Screenshot](https://github.com/aivarovsky/positivus-landing-page/blob/main/img/screenshot.png)
+
 # Positivus Landing Page
 
 ## Overview
