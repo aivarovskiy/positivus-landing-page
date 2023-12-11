@@ -412,7 +412,7 @@ h1, h2, h3, h4 {font-family: var(--ff-heading);}
     .header__nav {display: flex;}
 
 
-    .hero {grid-template-columns: repeat(2, minmax(0, 1fr));}
+    .hero {grid-template-columns: repeat(2, minmax(0, 1fr)); overflow: hidden;}
     .hero__img_hidden-on-mobile {display: block; min-width: 528px;}
     .hero__img_visible-on-mobile {display: none;}
     .col_hero {align-items: start; text-align: start;}
