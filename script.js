@@ -1,3 +1,5 @@
+const BREAKPOINT = 768;
+
 const nav = document.getElementById("nav");
 const navToggle = document.getElementById("nav-toggle");
 
@@ -9,7 +11,7 @@ form.addEventListener('submit', (event) => {
 });
 
 visualViewport.addEventListener("resize", () => {
-    if (getWidth() < 768){
+    if (getWidth() < BREAKPOINT){
         nav.style.display = "block";
         if (!navToggle.checked){
             nav.style.display = "none";
@@ -23,7 +25,7 @@ visualViewport.addEventListener("resize", () => {
   });
 
 function toggleNav() {
-    if (getWidth() < 768){
+    if (getWidth() < BREAKPOINT){
         nav.style.display = "block";
         if (navToggle.checked){
             nav.style.display = "none";
@@ -31,7 +33,7 @@ function toggleNav() {
     }
 }
 function closeNav() {
-    if (getWidth() < 768){
+    if (getWidth() < BREAKPOINT){
         nav.style.display = "none";
         navToggle.checked = false;
     }
